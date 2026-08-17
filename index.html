@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<link href="images/logo_new.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="images/logo_new.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="images/logo_new.png" rel="icon" sizes="192x192" type="image/png"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Mulla Thanuja</title>
+<link crossorigin="" href="css/index-D7aX7CUZ.css" rel="stylesheet"/>
+<style>
+    @keyframes scroll-left {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+    }
+    .skills-marquee-container {
+        display: flex;
+        width: 200%;
+        animation: scroll-left 15s linear infinite;
+        overflow: hidden;
+    }
+    .skills-marquee-container:hover {
+        animation-play-state: paused;
+    }
+    .skills-track {
+        display: flex;
+        width: 50%;
+        justify-content: space-around;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    .skill-item {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        opacity: 0.7;
+        transition: opacity 0.3s;
+    }
+    .skill-item:hover {
+        opacity: 1;
+    }
+    .skill-icon {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+    .skill-name {
+        font-size: 1.5rem;
+        font-weight: bold;
+        white-space: nowrap;
+    }
+    </style><style>
+.bg-dot-pattern {
+    background-image: radial-gradient(#d1d5db 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+.dark .bg-dot-pattern {
+    background-image: radial-gradient(rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+    background-size: 24px 24px;
+}
+</style><style>
+.dark .dark\:text-black { color: #000 !important; }
+</style>
+<style>
+.trail-dot {
+    position: fixed;
+    width: 8px;
+    height: 8px;
+    background-color: #4a4a4a;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 9998;
+    animation: fadeScale 0.8s ease-out forwards;
+}
+.dark #current-date { color: rgba(255, 255, 255, 0.8) !important; }
+.dark .trail-dot {
+    background-color: #888888;
+}
+@keyframes fadeScale {
+    0% {
+        opacity: 0.8;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.2);
+    }
+}
+</style>
+</head>
+<body>
+<div id="root"><div class="relative overflow-x-hidden font-sans transition-colors duration-700 bg-[#FAFAFA] text-[#1a1a1a] dark:bg-[#111111] dark:text-[#FAFAFA] bg-dot-pattern"><style>* { cursor: none !important; }</style><div class="fixed pointer-events-none z-[9999]" style="width: 24px; height: 24px; transform: translateX(-12px) translateY(-12px);"><div class="dark:border-white/20" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 24px; height: 24px; border-radius: 50%; border-width: 1.5px; border-color: white; border-style: solid;"></div><div class="dark:border-white/20" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 18px; height: 18px; border-radius: 50%; border-width: 1.5px; border-color: white; border-style: solid;"></div><div class="dark:bg-white" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 12px; height: 12px; border-radius: 50%; background-color: black;"></div></div><div class="dark:[background-image:radial-gradient(rgb(255,255,255)_2px,transparent_2px)]" style="background-size: 20px 20px; background-image: radial-gradient(rgb(0, 0, 0) 2px, transparent 2px);"></div><div class="fixed bottom-6 left-0 right-0 lg:fixed lg:top-6 lg:bottom-auto z-40 flex justify-center px-4 pointer-events-none"><nav class="pointer-events-auto flex items-center gap-4 lg:gap-6 px-6 py-3 rounded-full transition-all duration-700 font-sans backdrop-blur-3xl backdrop-saturate-150 border bg-white/65 border-white/50 shadow-[0_8px_30px_rgb(0,0,0,0.04)] lg:bg-transparent lg:backdrop-blur-none lg:border-transparent lg:shadow-none"><div class="flex items-center gap-4 lg:gap-8 text-xs lg:text-sm font-bold tracking-tighter"><a class="hover:scale-110 transition-transform" href="#home"><img alt="Home" class="w-4 h-4 object-contain" src="images/home-agreement.png"/></a><a class="transition-colors font-medium text-gray-600 hover:text-black dark:text-[#FAFAFA] dark:hover:text-white" href="#about">About</a><a class="transition-colors font-medium text-gray-600 hover:text-black dark:text-[#FAFAFA] dark:hover:text-white" href="#projects">Projects</a><a class="transition-colors font-medium text-gray-600 hover:text-black dark:text-[#FAFAFA] dark:hover:text-white" href="#education">Education</a><a class="transition-colors font-medium text-gray-600 hover:text-black dark:text-[#FAFAFA] dark:hover:text-white" href="#experience">Experience</a><a class="transition-colors font-medium text-gray-600 hover:text-black dark:text-[#FAFAFA] dark:hover:text-white" href="#certifications">Certifications</a></div></nav></div><div class="absolute top-6 left-6 z-50 hidden lg:flex items-center gap-3 transition-colors duration-700 h-[46px] text-black/80 dark:text-white/80"><svg aria-hidden="true" class="lucide lucide-calendar text-black/60 dark:text-white/60" fill="none" height="16" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="16" xmlns="http://www.w3.org/2000/svg"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect height="18" rx="2" width="18" x="3" y="4"></rect><path d="M3 10h18"></path></svg><span class="text-sm font-sans tracking-tight dark:text-white/80" id="current-date">Mon, Aug 17, 2026</span></div><div class="absolute top-6 right-6 z-50 flex items-center gap-1 p-1.5 rounded-full transition-all duration-700 backdrop-blur-3xl backdrop-saturate-150 border bg-white/65 border-white/50 shadow-[0_8px_30px_rgb(0,0,0,0.04)] dark:bg-black/65 dark:border-white/10"><button class="relative z-10 p-2 rounded-full focus:outline-none" id="theme-toggle-light"><svg aria-hidden="true" class="lucide lucide-sun text-black dark:text-white/40 transition-colors" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg><div class="absolute inset-0 bg-white rounded-full shadow-sm -z-10 dark:opacity-0 transition-opacity" id="theme-active-light"></div></button><button class="relative z-10 p-2 rounded-full focus:outline-none" id="theme-toggle-dark"><svg aria-hidden="true" class="lucide lucide-moon text-black/40 dark:text-white transition-colors" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"></path></svg><div class="absolute inset-0 bg-white/10 rounded-full shadow-sm -z-10 opacity-0 dark:opacity-100 transition-opacity" id="theme-active-dark"></div></button></div><section class="w-full px-6 max-w-5xl mx-auto flex flex-col justify-center flex items-center relative z-10 pb-12 min-h-screen" id="home" style="padding-top: 10rem; padding-bottom: 4rem; min-height: 100vh;"><div class="flex flex-row items-center justify-between gap-4 md:gap-10 lg:gap-16 w-full"><div class="flex-1 space-y-4 text-left z-10 min-w-0"><p class="text-gray-400 font-mono text-sm md:text-base tracking-widest pl-1">Hi, I am</p><h1 class="font-dot text-3xl md:text-5xl lg:text-7xl leading-[0.9] tracking-tighter uppercase">Mulla <br/> Thanuja</h1><div class="flex flex-col gap-2 pt-1 pl-1"><p class="font-sans text-m md:text-l text-gray-600">Passionate about Artificial Intelligence, Machine Learning, and software development, with a strong interest in building intelligent, practical, and innovative solutions. I enjoy working at the intersection of logic and creativity—transforming ideas into meaningful applications through technology.</p><div class="flex items-center gap-2 text-xs font-bold uppercase tracking-widest text-gray-400"><svg aria-hidden="true" class="lucide lucide-map-pin" fill="none" height="10" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="10" xmlns="http://www.w3.org/2000/svg"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg> <span>Chennai, Tamilnadu</span></div><div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-500/5 border-green-500/10 border w-fit mt-2"><span class="relative flex h-2 w-2"><span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span></span><span class="text-[9px] md:text-[10px] font-bold uppercase tracking-widest text-green-600 font-sans">Active Now</span></div></div><div class="flex flex-wrap gap-4 pt-6 pl-1"><a class="inline-flex items-center gap-2 px-4 py-2 md:px-6 md:py-2.5 rounded-full font-bold text-[10px] md:text-xs hover:scale-105 transition-transform font-sans bg-black text-white dark:bg-white dark:text-black" href="Mulla_Thanuja_Resume.pdf" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" class="lucide lucide-arrow-up-right md:w-4 md:h-4" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>Resume</a><a href="#connect"><button class="px-6 py-2.5 rounded-full font-bold text-xs transition-colors backdrop-blur-xl bg-gray-200 text-black hover:bg-gray-300 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700">Contact Me</button></a></div></div><div class="w-28 md:w-full max-w-xs z-10 flex-shrink-0"><div class="relative aspect-[3/4] rounded-[2rem] overflow-hidden bg-gray-100"><img alt="Portrait" class="w-[300px] h-[350px] md:w-[400px] md:h-[450px] object-cover rounded-[2rem] grayscale hover:grayscale-0 transition-all duration-500 shadow-2xl" src="images/siri-portrait.jpg"/></div></div></div></section><section class="w-full py-4 lg:py-24" id="skills">
+<div class="w-full relative overflow-hidden py-12 lg:py-24">
+<!-- Background Grid like original -->
+<style>
+        @keyframes scroll-left {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+        .skills-marquee-container {
+            display: flex;
+            width: max-content;
+            animation: scroll-left 25s linear infinite;
+        }
+        .skills-marquee-container:hover {
+            animation-play-state: paused;
+        }
+        </style>
+<div class="relative z-10 w-full overflow-hidden">
+<div class="skills-marquee-container">
+<div class="flex items-center gap-10 lg:gap-24 px-5 lg:px-12" style="flex-shrink: 0">
+<div class="flex items-center gap-3 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300">
+<img alt="Python" class="w-6 h-6 lg:w-10 lg:h-10 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
+<span class="text-lg lg:text-3xl font-bold tracking-tight font-sans whitespace-nowrap text-black/80 dark:text-white/80">Python</span>
+</div>
+<div class="flex items-center gap-3 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300">
+<img alt="Machine Learning" class="w-6 h-6 lg:w-10 lg:h-10 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"/>
+<span class="text-lg lg:text-3xl font-bold tracking-tight font-sans whitespace-nowrap text-black/80 dark:text-white/80">Machine Learning</span>
+</div>
+<div class="flex items-center gap-3 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300">
+<img alt="MySQL" class="w-6 h-6 lg:w-10 lg:h-10 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/>
+<span class="text-lg lg:text-3xl font-bold tracking-tight font-sans whitespace-nowrap text-black/80 dark:text-white/80">MySQL</span>
+</div>
+<div class="flex items-center gap-3 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300">
+<img alt="React.js" class="w-6 h-6 lg:w-10 lg:h-10 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
+<span class="text-lg lg:text-3xl font-bold tracking-tight font-sans whitespace-nowrap text-black/80 dark:text-white/80">React.js</span>
+</div>
+<div class="flex items-center gap-3 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300">
+<svg class="w-6 h-6 lg:w-10 lg:h-10 object-contain" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+<span class="text-lg lg:text-3xl font-bold tracking-tight font-sans whitespace-nowrap text-black/80 dark:text-white/80">Generative AI</span>
+</div>
+</div>
+<!-- Duplicate exactly for infinite scrolling -->
+<div class="flex items-center gap-10 lg:gap-24 px-5 lg:px-12" style="flex-shrink: 0">
+<div class="flex items-center gap-3 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300">
+<img alt="Python" class="w-6 h-6 lg:w-10 lg:h-10 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"/>
+<span class="text-lg lg:text-3xl font-bold tracking-tight font-sans whitespace-nowrap text-black/80 dark:text-white/80">Python</span>
+</div>
+<div class="flex items-center gap-3 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300">
+<img alt="Machine Learning" class="w-6 h-6 lg:w-10 lg:h-10 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"/>
+<span class="text-lg lg:text-3xl font-bold tracking-tight font-sans whitespace-nowrap text-black/80 dark:text-white/80">Machine Learning</span>
+</div>
+<div class="flex items-center gap-3 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300">
+<img alt="MySQL" class="w-6 h-6 lg:w-10 lg:h-10 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"/>
+<span class="text-lg lg:text-3xl font-bold tracking-tight font-sans whitespace-nowrap text-black/80 dark:text-white/80">MySQL</span>
+</div>
+<div class="flex items-center gap-3 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300">
+<img alt="React.js" class="w-6 h-6 lg:w-10 lg:h-10 object-contain" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"/>
+<span class="text-lg lg:text-3xl font-bold tracking-tight font-sans whitespace-nowrap text-black/80 dark:text-white/80">React.js</span>
+</div>
+<div class="flex items-center gap-3 grayscale hover:grayscale-0 opacity-60 hover:opacity-100 transition-all duration-300">
+<svg class="w-6 h-6 lg:w-10 lg:h-10 object-contain" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+<span class="text-lg lg:text-3xl font-bold tracking-tight font-sans whitespace-nowrap text-black/80 dark:text-white/80">Generative AI</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section class="w-full px-6 max-w-5xl mx-auto flex flex-col justify-center min-h-[80vh] py-12 lg:py-24" id="about"><div class="flex flex-col items-center text-center space-y-12"><h2 class="font-dot text-5xl uppercase tracking-tight">About Me</h2><p class="max-w-3xl leading-relaxed text-lg font-dot text-gray-700">I’m an AI &amp; ML developer passionate about building intelligent solutions that combine technology, creativity, and real-world impact.<br/><br/>My work spans Artificial Intelligence, Machine Learning, Generative AI, Computer Vision, and software development. I enjoy turning ideas into practical applications—from intelligent assistants and computer vision systems to accessible technology that solves meaningful problems.<br/><br/>I’m driven by curiosity and problem-solving, constantly exploring new technologies and finding better ways to build, learn, and innovate. For me, development is not just about writing code—it’s about creating experiences and solutions that make technology more useful, accessible, and human-centered.</p></div></section><section class="w-full px-6 max-w-5xl mx-auto flex flex-col justify-center py-12 lg:py-24" id="projects"><div class="mb-12 flex items-end justify-between"><div><p class="font-dot text-[10px] lg:text-sm tracking-widest uppercase mb-2 text-gray-400">Selected Works</p><h2 class="font-dot text-4xl md:text-6xl uppercase tracking-tight">Featured Projects</h2></div><div class="hidden md:flex items-center gap-2 text-xs font-dot text-gray-400"><svg aria-hidden="true" class="lucide lucide-layers" fill="none" height="14" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="14" xmlns="http://www.w3.org/2000/svg"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"></path><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"></path><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"></path></svg> <span>Interactive Gallery</span></div></div><div class="grid grid-cols-1 gap-8 w-full"><div class="w-full h-[450px]"><div class="relative group h-full rounded-[2rem] transition-all duration-500 h-full" style="transform-style: preserve-3d; transform: none;"><div class="h-full w-full rounded-[2rem] overflow-hidden relative flex flex-col justify-between transition-all duration-500 will-change-transform border border-white/40 bg-white/40 shadow-sm dark:bg-[#111111] dark:border-white/10"><div class="relative z-10 h-full w-full"><div class="flex w-full h-full flex-col lg:flex-row"><div class="relative overflow-hidden flex items-center justify-center p-8 h-[45%] lg:h-full lg:w-[45%] w-full /* 1. Heavy Blur + Transparency - Liquid Glass Effect */ backdrop-blur-3xl bg-gray-200/40 /* 2. Glass Borders &amp; Shadows for Thickness */ border-white/50 shadow-[inset_0_0_40px_rgba(255,255,255,0.4),0_0_20px_rgba(0,0,0,0.05)] /* 3. Border Separation Logic */ border-b lg:border-b-0 lg:border-r border-white/50 dark:bg-black/65"><div class="absolute inset-0 z-20 bg-gradient-to-tr from-transparent via-white/20 to-transparent pointer-events-none mix-blend-overlay"></div><div class="absolute inset-0 z-0 bg-gradient-to-b from-white/10 to-transparent opacity-50 pointer-events-none"></div><img alt="cARd" class="relative z-10 w-48 h-48 object-contain transition-transform duration-500 group-hover:scale-110 drop-shadow-2xl" src="images/card.png"/></div><div class="relative z-10 flex flex-col justify-between p-6 lg:p-10 h-[55%] lg:h-full lg:w-[55%] w-full"><div><div class="flex justify-between items-start mb-6"><h3 class="text-2xl lg:text-4xl font-bold font-dot leading-tight text-black dark:text-white">SignBridge</h3><div class="flex gap-2"><a class="p-3 rounded-full transition-all bg-black/5 text-black hover:bg-black hover:text-white dark:bg-white dark:text-black dark:hover:bg-gray-800 dark:hover:text-white" href="#"><svg aria-hidden="true" class="lucide lucide-github" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="18" xmlns="http://www.w3.org/2000/svg"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a></div></div><div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold tracking-wider mb-6 border backdrop-blur-md bg-black/5 border-black/10 text-gray-700 dark:bg-black/65 dark:text-[#FAFAFA] dark:border-white/20"><svg aria-hidden="true" class="lucide lucide-smartphone" fill="none" height="12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="12" xmlns="http://www.w3.org/2000/svg"><rect height="20" rx="2" ry="2" width="14" x="5" y="2"></rect><path d="M12 18h.01"></path></svg><span>Learning App</span></div><p class="text-sm lg:text-base leading-relaxed mb-6 font-dot text-gray-600 dark:text-[#FAFAFA]">Built a real-time sign language recognition application using CNN and computer vision to convert hand gestures into English text and speech. Integrated NLP and text-to-speech modules to improve communication accessibility for deaf and mute users.</p></div><div class="flex flex-wrap gap-2 mt-auto"><span class="text-[10px] font-bold uppercase tracking-widest px-4 py-2 rounded-full border backdrop-blur-md font-dot border-black/10 bg-white/40 text-gray-700 dark:bg-black/65 dark:text-[#FAFAFA] dark:border-white/20">Python</span><span class="text-[10px] font-bold uppercase tracking-widest px-4 py-2 rounded-full border backdrop-blur-md font-dot border-black/10 bg-white/40 text-gray-700 dark:bg-black/65 dark:text-[#FAFAFA] dark:border-white/20">OpenCV</span><span class="text-[10px] font-bold uppercase tracking-widest px-4 py-2 rounded-full border backdrop-blur-md font-dot border-black/10 bg-white/40 text-gray-700 dark:bg-black/65 dark:text-[#FAFAFA] dark:border-white/20">TensorFlow</span><span class="text-[10px] font-bold uppercase tracking-widest px-4 py-2 rounded-full border backdrop-blur-md font-dot border-black/10 bg-white/40 text-gray-700 dark:bg-black/65 dark:text-[#FAFAFA] dark:border-white/20">CNN</span><span class="text-[10px] font-bold uppercase tracking-widest px-4 py-2 rounded-full border backdrop-blur-md font-dot border-black/10 bg-white/40 text-gray-700 dark:bg-black/65 dark:text-[#FAFAFA] dark:border-white/20">NLP</span><span class="text-[10px] font-bold uppercase tracking-widest px-4 py-2 rounded-full border backdrop-blur-md font-dot border-black/10 bg-white/40 text-gray-700 dark:bg-black/65 dark:text-[#FAFAFA] dark:border-white/20">React.js</span><span class="text-[10px] font-bold uppercase tracking-widest px-4 py-2 rounded-full border backdrop-blur-md font-dot border-black/10 bg-white/40 text-gray-700 dark:bg-black/65 dark:text-[#FAFAFA] dark:border-white/20">FastAPI</span></div></div></div></div></div></div></div></div></section><section class="w-full px-6 max-w-5xl mx-auto flex flex-col justify-center py-12 lg:py-24" id="education"><h2 class="font-dot text-4xl uppercase mb-16 pl-6 dark:text-white">Education</h2><div class="space-y-16 pl-6 border-l-[1.5px] ml-6 border-gray-300"><div class="relative pl-10"><div class="absolute -left-[9px] top-2 w-[17px] h-[17px] rounded-full border-4 bg-black border-[#FAFAFA]"></div><h3 class="text-3xl font-bold tracking-tight font-sans dark:text-white">B.Tech - Artificial Intelligence and Machine Learning</h3><p class="text-xl mt-2 font-medium font-sans text-gray-600 dark:text-[#FAFAFA]">R.M.D Engineering College</p><div class="flex flex-wrap gap-6 mt-4 text-sm font-dot uppercase tracking-widest text-gray-500"><span>2024 — 2028</span></div></div><div class="relative pl-10 opacity-60"><div class="absolute -left-[9px] top-2 w-[17px] h-[17px] rounded-full border-4 bg-gray-400 border-[#FAFAFA]"></div><h3 class="text-3xl font-bold tracking-tight font-sans dark:text-white">Higher Secondary Education (Class 12)</h3><p class="text-xl mt-2 font-medium font-sans text-gray-600 dark:text-[#FAFAFA]">Viswasai Junior College</p><div class="flex flex-wrap gap-6 mt-4 text-sm font-dot uppercase tracking-widest text-gray-500"><span>2022 — 2024</span></div></div><div class="relative pl-10 opacity-60"><div class="absolute -left-[9px] top-2 w-[17px] h-[17px] rounded-full border-4 bg-gray-400 border-[#FAFAFA]"></div><h3 class="text-3xl font-bold tracking-tight font-sans dark:text-white">Secondary Education (Class 10)</h3><p class="text-xl mt-2 font-medium font-sans text-gray-600 dark:text-[#FAFAFA]">Dr.Kishore’s Ratnam High School</p><div class="flex flex-wrap gap-6 mt-4 text-sm font-dot uppercase tracking-widest text-gray-500"><span>2021 — 2022</span></div></div></div></section><section class="w-full px-6 max-w-5xl mx-auto flex flex-col justify-center py-12 lg:py-24" id="experience"><h2 class="font-dot text-4xl uppercase mb-16 pl-6 dark:text-white">Experience</h2><div class="space-y-16 pl-6 border-l-[1.5px] ml-6 border-gray-300">
+<div class="relative pl-10">
+<div class="absolute -left-[9px] top-2 w-[17px] h-[17px] rounded-full border-4 bg-black border-[#FAFAFA]">
+</div>
+<h3 class="text-3xl font-bold tracking-tight font-sans dark:text-white">
+            Intern
+           </h3>
+<p class="text-xl mt-2 font-medium font-sans text-gray-600 dark:text-[#FAFAFA]">
+            Innovate Invent Edu-Tech Pvt. Ltd
+           </p>
+<ul class="list-disc ml-5 mt-4 text-sm font-dot text-gray-500 space-y-2">
+<li class="dark:text-[#FAFAFA]">Designed Telegram bots using Bot API keys, including automated responses and command processing.</li>
+<li class="dark:text-[#FAFAFA]">Created an AI-based short film using generative AI tools for script writing, voiceover generation, and image creation. Edited and arranged the scenes and post-production work using AI-based platforms.</li>
+<li class="dark:text-[#FAFAFA]">Designed a computer vision project using Roboflow for dataset annotation, model training, and object detection, enhancing model accuracy through pre-processing and augmentation strategies.</li>
+</ul>
+<div class="flex flex-wrap gap-6 mt-4 text-sm font-dot uppercase tracking-widest text-gray-500">
+<span>
+             June 2025 – July 2025
+            </span>
+</div>
+</div>
+</div></section><section class="w-full px-6 max-w-5xl mx-auto flex flex-col justify-center py-12 lg:py-24" id="certifications"><h2 class="font-dot text-4xl uppercase mb-16 pl-6 dark:text-white">Certifications</h2><div class="space-y-16 pl-6 border-l-[1.5px] ml-6 border-gray-300"><div class="relative pl-10"><div class="absolute -left-[9px] top-2 w-[17px] h-[17px] rounded-full border-4 bg-black border-[#FAFAFA]"></div><h3 class="text-3xl font-bold tracking-tight font-sans dark:text-white">Oracle APEX Cloud Certificate</h3><p class="text-xl mt-2 font-medium font-sans text-gray-600 dark:text-[#FAFAFA]">Certification</p><div class="flex flex-wrap gap-6 mt-4 text-sm font-dot uppercase tracking-widest text-gray-500"><span>Completed</span><span>Online</span></div></div><div class="relative pl-10"><div class="absolute -left-[9px] top-2 w-[17px] h-[17px] rounded-full border-4 bg-black border-[#FAFAFA]"></div><h3 class="text-3xl font-bold tracking-tight font-sans dark:text-white">Oracle Generative AI Certificate</h3><p class="text-xl mt-2 font-medium font-sans text-gray-600 dark:text-[#FAFAFA]">Certification</p><div class="flex flex-wrap gap-6 mt-4 text-sm font-dot uppercase tracking-widest text-gray-500"><span>Completed</span><span>Online</span></div></div><div class="relative pl-10"><div class="absolute -left-[9px] top-2 w-[17px] h-[17px] rounded-full border-4 bg-black border-[#FAFAFA]"></div><h3 class="text-3xl font-bold tracking-tight font-sans dark:text-white">NPTEL - Internet of Things (IoT) 4.0</h3><p class="text-xl mt-2 font-medium font-sans text-gray-600 dark:text-[#FAFAFA]">Certification</p><div class="flex flex-wrap gap-6 mt-4 text-sm font-dot uppercase tracking-widest text-gray-500"><span>Completed</span><span>Online</span></div></div><div class="relative pl-10"><div class="absolute -left-[9px] top-2 w-[17px] h-[17px] rounded-full border-4 bg-black border-[#FAFAFA]"></div><h3 class="text-3xl font-bold tracking-tight font-sans dark:text-white">Oracle Agentic AI Certificate</h3><p class="text-xl mt-2 font-medium font-sans text-gray-600 dark:text-[#FAFAFA]">Certification</p><div class="flex flex-wrap gap-6 mt-4 text-sm font-dot uppercase tracking-widest text-gray-500"><span>Completed</span><span>Online</span></div></div></div></section><section class="w-full px-6 py-12 lg:py-24" id="connect"><div class="max-w-lg mx-auto w-full"><h2 class="font-dot text-5xl uppercase mb-8 text-center">Let's Connect</h2><form action="https://api.web3forms.com/submit" class="flex flex-col gap-6 w-full" id="contact-form" method="POST" novalidate=""><input name="access_key" type="hidden" value="eca3e949-e93a-44bf-a779-eba87084bc38"/><input name="_captcha" type="hidden" value="false"/><input name="_subject" type="hidden" value="New Portfolio Inquiry"/><div class="flex flex-col gap-6 w-full" id="form-inner-container"><div class="flex flex-col gap-2"><label class="text-sm font-bold font-dot text-gray-700 dark:text-[#FAFAFA]">Full Name</label><input class="w-full p-4 rounded-xl border outline-none transition-all border-gray-300 focus:border-black bg-white text-black dark:bg-[#111111] dark:border-white/20 dark:text-white dark:focus:border-white" id="name" name="name" placeholder="Your Name" type="text"/><span class="text-[11px] font-dot text-red-500 hidden mt-1" id="name-error">Please enter your name.</span></div><div class="flex flex-col gap-2"><label class="text-sm font-bold font-dot text-gray-700 dark:text-[#FAFAFA]">Email Address</label><input class="w-full p-4 rounded-xl border outline-none transition-all border-gray-300 focus:border-black bg-white text-black dark:bg-[#111111] dark:border-white/20 dark:text-white dark:focus:border-white" id="email" name="email" placeholder="email@example.com" type="email"/><span class="text-[11px] font-dot text-red-500 hidden mt-1" id="email-error">Please enter a valid email address.</span></div><div class="flex flex-col gap-2"><label class="text-sm font-bold font-dot text-gray-700 dark:text-[#FAFAFA]">Message</label><textarea class="w-full p-4 rounded-xl border outline-none transition-all border-gray-300 focus:border-black bg-white text-black dark:bg-[#111111] dark:border-white/20 dark:text-white dark:focus:border-white" id="message" name="message" placeholder="Tell me about your project..." rows="5"></textarea><span class="text-[11px] font-dot text-red-500 hidden mt-1" id="message-error">Please enter your message.</span></div><div class="flex justify-center mt-4">
+<button class="relative inline-flex h-12 overflow-hidden rounded-full p-[2px] group hover:scale-105 transition-transform w-full md:w-auto disabled:opacity-50 disabled:scale-100 disabled:pointer-events-none" id="submit-btn" type="submit">
+<span class="absolute inset-[-1000%] animate-[spin_5s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#ffffff_0%,#000000_50%,#ffffff_100%)] dark:bg-[conic-gradient(from_90deg_at_50%_50%,#000000_0%,#ffffff_50%,#000000_100%)]">
+</span>
+<span class="inline-flex h-full w-full items-center justify-center rounded-full px-12 text-sm font-bold backdrop-blur-3xl gap-2 font-sans bg-white text-black dark:bg-[#111111] dark:text-white" id="submit-btn-text">
+<svg aria-hidden="true" class="lucide lucide-mail w-4 h-4" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><rect height="16" rx="2" width="20" x="2" y="4"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+          Send Message
+         </span>
+</button>
+</div></div>
+<div class="hidden flex-col items-center justify-center text-center py-10 w-full animate-in fade-in zoom-in duration-500" id="success-message">
+<div class="w-20 h-20 rounded-full border-2 border-black flex items-center justify-center mb-8 dark:border-white">
+<svg class="w-10 h-10 text-black dark:text-white" fill="none" height="24" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><polyline points="20 6 9 17 4 12"></polyline></svg>
+</div>
+<h3 class="font-sans text-2xl md:text-3xl font-bold mb-6 dark:text-white uppercase tracking-widest">THANK YOU!</h3>
+<p class="text-gray-600 text-sm md:text-base dark:text-[#FAFAFA] font-medium font-sans mb-1">Your message has been received successfully.</p>
+<p class="text-gray-600 text-sm md:text-base dark:text-[#FAFAFA] font-medium font-sans mb-1">I sincerely appreciate you taking the time to connect</p>
+<p class="text-gray-600 text-sm md:text-base dark:text-[#FAFAFA] font-medium font-sans">and will respond shortly.</p>
+</div>
+</form></div></section><footer class="w-full bg-black text-white pt-16 pb-32 md:pb-16 border-t mt-12 border-white/10"><div class="w-[90%] lg:w-[80%] mx-auto px-0"><div class="flex flex-col md:flex-row justify-between gap-12 mb-16"><div class="space-y-6 max-w-sm"><div class="text-2xl font-bold tracking-tight font-sans">MT</div><p class="text-gray-400 text-sm leading-relaxed font-sans">Passionate about Artificial Intelligence, Machine Learning, and software development, with a strong interest in building intelligent, practical, and innovative solutions.</p><div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-green-500/10 border border-green-500/20 w-fit"><span class="relative flex h-2 w-2"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span></span><span class="text-[10px] font-bold uppercase tracking-widest text-green-400 font-sans">Available for work</span></div></div><div><h3 class="text-gray-500 text-xs uppercase tracking-widest mb-6 font-sans">General</h3><div class="flex flex-col gap-4 text-sm text-gray-300 font-sans"><a class="hover:text-white transition-colors" href="#about">About</a><a class="hover:text-white transition-colors" href="#projects">Projects</a><a class="hover:text-white transition-colors" href="#education">Education</a></div></div></div><div class="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-6"><p class="text-gray-500 text-xs font-sans text-center md:text-left">© 2026 Mulla Thanuja. All rights reserved.</p><div class="flex flex-col md:flex-row items-center gap-6"><div class="flex gap-6 text-gray-400"><a class="hover:text-white transition-colors" href="#"><svg aria-hidden="true" class="lucide lucide-github" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a><a class="hover:text-blue-400 transition-colors" href="#"><svg aria-hidden="true" class="lucide lucide-linkedin" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect height="12" width="4" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a><a class="hover:text-blue-600 transition-colors" href="#"><svg aria-hidden="true" class="lucide lucide-facebook" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a><a class="hover:text-pink-600 transition-colors" href="#"><svg aria-hidden="true" class="lucide lucide-instagram" fill="none" height="20" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewbox="0 0 24 24" width="20" xmlns="http://www.w3.org/2000/svg"><rect height="20" rx="5" ry="5" width="20" x="2" y="2"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg></a></div></div></div></div></footer></div></div>
+<script src="main.js?v=2"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('contact-form');
+    const formInner = document.getElementById('form-inner-container');
+    const successMsg = document.getElementById('success-message');
+    const btnText = document.getElementById('submit-btn-text');
+    const btn = document.getElementById('submit-btn');
+
+    if (form) {
+        // Remove native novalidate
+        form.setAttribute('novalidate', true);
+
+        function validateEmail(email) {
+            const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return re.test(String(email).toLowerCase());
+        }
+
+        function clearErrors() {
+            ['name', 'email', 'message'].forEach(id => {
+                const inp = document.getElementById(id);
+                const err = document.getElementById(id + '-error');
+                if (inp && err) {
+                    inp.classList.remove('border-red-500');
+                    err.classList.add('hidden');
+                }
+            });
+        }
+
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            clearErrors();
+            let isValid = true;
+
+            const name = document.getElementById('name');
+            const email = document.getElementById('email');
+            const message = document.getElementById('message');
+
+            if (!name.value.trim()) {
+                name.classList.add('border-red-500');
+                document.getElementById('name-error').classList.remove('hidden');
+                isValid = false;
+            }
+
+            if (!email.value.trim() || !validateEmail(email.value.trim())) {
+                email.classList.add('border-red-500');
+                document.getElementById('email-error').classList.remove('hidden');
+                isValid = false;
+            }
+
+            if (!message.value.trim()) {
+                message.classList.add('border-red-500');
+                document.getElementById('message-error').classList.remove('hidden');
+                isValid = false;
+            }
+
+            if (!isValid) return;
+
+            // Show sending state
+            const originalContent = btn.innerHTML;
+            btn.innerHTML = `<span class="w-2 h-2 bg-black dark:bg-white rounded-full animate-pulse"></span> <span class="text-sm font-bold uppercase tracking-widest font-sans text-black dark:text-white">Sending...</span>`;
+            btn.disabled = true;
+
+            const formData = new FormData(form);
+
+            fetch('https://api.web3forms.com/submit', {
+                method: 'POST',
+                headers: {
+                    'Accept': 'application/json'
+                },
+                body: formData
+            })
+            .then(async (response) => {
+                let json = await response.json();
+                if (response.status == 200) {
+                    // Success: Hide form, show message
+                    formInner.classList.add('hidden');
+                    successMsg.classList.remove('hidden');
+                    successMsg.classList.add('flex');
+                } else {
+                    console.log(response);
+                    alert('Oops! Something went wrong. ' + json.message);
+                }
+            })
+            .catch(error => {
+                console.log(error);
+                alert('Oops! Something went wrong.');
+            })
+            .finally(function() {
+                // Restore button just in case, though it might be hidden
+                btnText.innerHTML = originalText;
+                btn.disabled = false;
+            });
+        });
+
+        // Clear error on input
+        ['name', 'email', 'message'].forEach(id => {
+            const inp = document.getElementById(id);
+            if (inp) {
+                inp.addEventListener('input', function() {
+                    inp.classList.remove('border-red-500');
+                    document.getElementById(id + '-error').classList.add('hidden');
+                });
+            }
+        });
+    }
+});
+</script>
+</body></html>
